@@ -7,14 +7,19 @@ void Invertir(int a, int b);
 
 int main() {
 
-    int num1;
+    int num1, num2, num3;
     
-    puts("Escriba el numero");
+    puts("Escriba un numero (puntos a y b)");
     scanf("%d", &num1);
     
 
     cuadradoDeNumeros(num1);
     mostrarDatos(num1);
+
+    puts("Escriba dos numeros (puntos d y e)");
+    scanf("%d %d", &num2, &num3);
+
+    Invertir(num2, num3);
     
     return 0;
 }
@@ -32,6 +37,16 @@ void mostrarDatos(int num)
 }
 
 void Invertir(int a, int b)
-{
-    
+{ 
+    puts("Originales");
+    printf("a: %d   b: %d \n", a, b);
+
+    int copiab = b;
+
+    b = a;
+    a = copiab;
+
+    puts("Resultados");
+    printf("a: %d   b: %d", a, b);
+   
 }
