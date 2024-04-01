@@ -1,7 +1,7 @@
 ### tp1
 #### Punto 2.a
 
-Puede crear un archivo .gitignore en el directorio raíz del repositorio para indicarle a Git qué archivos y directorios ignorar cuando se realiza una confirmación.
+Puede crear un archivo .gitignore en el directorio raíz del repositorio para indicarle a Git qué archivos y directorios ignorar cuando se realiza una confirmación. Este archivo se necesita para preservar un buen uso de tiempo y memoria al momento de subir trabajos a git.
 
 #### Punto 3.g
 
